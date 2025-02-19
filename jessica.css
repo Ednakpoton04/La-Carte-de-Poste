@@ -1,0 +1,109 @@
+body {
+    background-color: aliceblue;
+    height: 650px;
+    width: 800px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+
+}
+
+section {
+    background: linear-gradient(#be7910, #d39d46);
+    height: 600px;
+    width: 600px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-left:    900px;
+
+    
+
+}
+
+.blanc {
+    background-color: rgb(252, 252, 252);
+    height: 450px;
+    width: 450px;
+    margin-top: 72px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.gauche {
+    display: flex;
+    text-align: center;
+    
+    flex-direction: column;
+    height: 450px;
+    width: 280px;
+    /* background-color: #16d80f; */
+}  
+.g {
+    margin-top: 50px;
+}
+img {
+    height: 100px;
+    border-radius: 100px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+button {
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.button1 {
+    margin-bottom: 20px;
+}
+button :hover {
+    padding: 12px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #3f2703;
+}
+
+.droite {
+    height: 450px;
+    width: 170px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.post {
+    height: 149px;
+    background-color:wheat ;
+
+}
+.likes {
+    height: 149px;
+    background-color:wheat ;
+
+}
+.follo {
+    height: 149px;
+    background-color:wheat ;
+
+}
+
+
+
+
+
+
+
+
+
+
